@@ -1,0 +1,31 @@
+body{
+    background-color: skyblue;
+}
+.container{
+    font-family: sans-serif;
+    border: 1px solid orange;
+    background-color: orange;
+    text-align: center;
+    margin-top:0%;
+    
+}
+/*.b{
+   min-width:480px;
+   min-height:480px;
+}*/
+.a{
+   min-width:480px;
+    min-height:480px;
+    display:flex;
+    flex-direction: row;
+    border:10px 40px;
+}
+@media(max-width:500px){
+    .a{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-content:center;
+        
+    }
+}
